@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html {
+	background-color: #fff ;
+	-webkit-font-smoothing: antialiased;
+	}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #4F4F5C;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#intro {
+    background: #ffffff;
+    height: auto;
+    margin-top: 10px;
+    padding: 100px 100px
+}
+h1 {
+    color: #00000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: center;
+}
+h2 {
+  color: #00000;
+  font-family: 'Lora';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: -8px;
+}
+#menu {
+    background: #2D303E;
+    margin-top: 0;
+    padding: 1px 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+#menu li {
+    margin: 0px !important;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+}
+.names {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.9px 25px;
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  letter-spacing: 2px;
+	}
+.names:hover {
+  transition: color 0.15s ease-in-out 0s;
+  color: #faa9a7;
+}
+
+.about-left {
+
+}
+/*.left {
+  width: 50%;
+  float: left;
+  height: 1100px;
+  position: relative;
+  background: #fff;
+}*/
+.sticky {
+	padding: 12px 0 !important;
+	.logo a {
+		width:40px !important;
+		height:35px !important;
+		background-size:40px 35px !important;
+		@include image-2x( "../img/logo_2x.png", 40px, 35px );
+	}
+}
+
+.me-image {
+    z-index: 1;
+ 		position: absolute; top: 50px;left:-8px;right:0; margin-left: auto;margin-right: auto;
+		background-size: 612px 612px;;
+		width: 150px;
+		height: 175px;
+}
+h3 {
+  width: 70%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 250px auto 10px auto;
+  text-transform: uppercase;
+}
+h4 {
+  color: #444a4e;
+  width: 70%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 400px auto 10px auto;
+  text-transform: uppercase;
+}
+h5 {
+  color: #444a4e;
+  width: 70%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 20px auto 10px auto;
+  text-transform: uppercase;
+}
+.left p {
+  width: 70%;
+  margin: auto;
+  font-family: "Lora";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #444a4e;
+  padding-bottom:20px;
+}
+.right {
+  width: 50%;
+  float: right;
+  height: 1100px;
+  position: relative;
+  background-color: #FFB6C1;
+}
+.right p {
+  width: 70%;
+  margin: auto;
+  font-family: "Lora";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #444a4e;
+  padding-bottom:20px;
+}
+/*footer*/
+/*icons*/
+
+.footer, .copyright {
+  background: #2d303e;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul {
+    padding:0;
+    list-style: none;
+    font-size: medium;
+}
+.footer-social-icons {
+    position: absolute;
+    right: 50px;
+    z-index: 5;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: -25px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #faa9a7;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-facebook:hover {
+    color: #ffffff;
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-twitter:hover {
+    color: #ffffff;
+    background-color: #00aced;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-linkedin:hover {
+    color: #ffffff;
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-github:hover {
+    color: #ffffff;
+    background-color: #00aced;
+}
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  display: inline-block;
+  width: 100%;
+    padding: 20px 0px;
+  /*
+
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 12px;
+*/
+}
+/*footer*/
+/*
+#about-section .about-left {
+    width: 50%;
+    float: left;
+    height: 1100px;
+    position: relative;
+}
+#about-section .about-left .about-left-inner {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#about-section .about-left .about-left-inner .about-left-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+#about-section .about-right {
+    width: 50%;
+    float: left;
+    height: 1100px;
+    background: #181a1b;
+    color: #828b91;
+    position: relative;
+}
+#about-section .about-right .about-right-inner {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#about-section .about-right .about-right-inner .about-right-content {
+    display: table-cell;
+    vertical-align: middle;
+}*/
