@@ -341,7 +341,6 @@ h4.unverr {
 }*/
 
 /*h4 {
-
 	font-family: "Montserrat";
 	font-weight: bold;
 	font-size: 1.5em;
@@ -366,10 +365,10 @@ h6 {
   width: 70%;
   font-family: "Montserrat";
   font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	letter-spacing: 2px;
   margin: 0 auto;
-	padding-bottom: 50px;
+	padding-bottom: 60px;
   text-transform: uppercase;
 	text-align: center;
 }
@@ -569,7 +568,7 @@ h6 {
 	}
 	.contact {
     width: 100%;
-    padding-top: 700px;
+    padding-top: 500px;
     padding-bottom: 43px;
 	}
 	.footer-social-icons {
@@ -716,6 +715,25 @@ ul.social-icons {
   width: 100%;
   padding: 20px 0px;
 }
+.two{
+    color: rgb(35, 41, 45);
+		font-family: "Montserrat";
+		font-weight: normal;
+		line-height: 2em;
+		font-size: 18px;
+		padding-bottom:20px;
+    width: 90%;
+    height: 100%;
+    position: relative;
+		letter-spacing: 2px;
+    color: #23292D;
+    padding-left: 0;
+		padding-right: 60px;
+    padding-top: 10px;
+	  margin: auto;
+		text-align: justify;
+
+}
 /*footer*/
 /*@media only screen and (max-width : 320px) {
 	.right {
@@ -807,7 +825,6 @@ ul.social-icons {
     width: 90%;
 }
 }
-
 /* Extra Small Devices, Phones *
 @media only screen and (max-width : 480px) {
 	.right {
@@ -899,7 +916,6 @@ ul.social-icons {
     width: 90%;
 }
 }
-
 /* Small Devices, Tablets
 @media only screen and (max-width : 768px) {
 	.right {
@@ -991,5 +1007,4 @@ ul.social-icons {
     width: 90%;
 }
 }
-
 /* Medium Devices, Desktops */
