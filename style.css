@@ -368,6 +368,7 @@ h6 {
 	  height: 100%;
 	  position: relative;
 	  color: #2d303e;
+		padding-left: 0;
 	}
 	.right p {
 	  width: 90%;
