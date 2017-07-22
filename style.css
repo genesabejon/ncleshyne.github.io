@@ -286,7 +286,7 @@ h3.unver {
     color: #fff;
     font-size: 2em;
 		letter-spacing: 10px;
-    line-height: 20em;
+    line-height: 24em;
     top: 0;
     left: 2px;
     -webkit-box-sizing: border-box;
@@ -304,7 +304,7 @@ h4.unverr {
     color: #fff;
     font-size: 2em;
 		letter-spacing: 10px;
-    line-height: 50em;
+    line-height: 65em;
     top: 0;
     left: 2px;
     -webkit-box-sizing: border-box;
@@ -390,22 +390,23 @@ h6 {
 	text-align: justify;
 	padding-left: 75px;
 }
-.right {
-  /*width: 50%;
-  float: right;*/
-  height: 1000px;
-  /*position: relative;*/
-  background-color: #fff;
-}
 .first {
   /*width: 50%;
   float: right;*/
-  height: 1000px;
+  height: 1200px;
   /*position: relative;*/
-  background-color: #23292D;
+  background-color: #5B88B7;
 	margin-left: 50px;
-	width: 5%;
-
+	width: 3%;
+	margin-top: -91px;
+}
+.firstrow {
+	  /*width: 50%;
+	  float: right;*/
+	  /*position: relative;*/
+	  background-color: #97B9DC;
+		height: 41px;
+		margin-top: 50px;
 }
 .right p {
 
@@ -453,25 +454,39 @@ h6 {
 
 
 .skills-section-flex {
-	margin-top: 100px;
+	margin-top: 180px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	}
-	.progress-bar-danger {
-	    background-color: #FF5733;
-	}
-	.progress-bar-ruby {
-	    background-color: #ac1301;
-	}
-	.progress-bar-boot {
-	    background-color: #563d7c;
-	}
-	.progress-bar-css {
-	    background-color: #0070ba;
-	}
-
+.progress-bar-danger {
+    background-color: #FF5733;
+}
+.progress-bar-ruby {
+    background-color: #ac1301;
+}
+.progress-bar-boot {
+    background-color: #563d7c;
+}
+.progress-bar-css {
+    background-color: #0070ba;
+}
+.ichi {
+	/*width: 50%;
+  float: right;*/
+	background-image: url("images/css.png");
+  height: 250px;
+  /*position: relative;*/
+  background-color: #fff;
+}
+.ni {
+	/*width: 50%;
+  float: right;*/
+  height: 100px;
+  /*position: relative;*/
+  background-color: #fff;
+}
 @media only screen and (max-width : 992px) {
 	.skills-card {
 	    flex-basis: 100%;
@@ -527,6 +542,7 @@ h6 {
 
 	}
 	.first {display: none !important;}
+	.firstrow {display: none !important;}
 	.unver {display: none !important;}
 	.vert {
 		width: 100%;
@@ -578,8 +594,12 @@ h6 {
 	.copyright {
     padding: 50px;
 	}
+	footer {
+	  height: 15%;
+	}
 	ul.social-icons {
-    margin-top: -30px;
+    display: inline-block;
+		margin-right: 50px;
 	}
 	#form {
     margin: 0 auto;
