@@ -561,7 +561,17 @@ h6 {
     color: #fff;
     background-color: #5B88B7;
 }
+.mobileskills {
+  display: none;
+}
 @media only screen and (max-width : 992px) {
+  .mobileskills {
+    display: block;
+    margin: 20px 0 20px 0;
+  }
+  .portfolio-details {
+    margin: 20px 0 20px 0;
+  }
   .dawn {
     margin-top: -180px;
   }
