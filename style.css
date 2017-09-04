@@ -396,7 +396,7 @@ h6 {
 
 }
 .left p {
-  width: 110%;
+  width: 100%;
   margin: auto;
 	padding-top: 100px;
   font-family: "Lora";
@@ -512,35 +512,55 @@ h6 {
   background-color: #fff;
 }
 
-/*.gitlink {
-    display: block;
-    position: relative;
-    max-width: 280px;
-    margin: 0 auto;
+.github-link {
+  display: block;
+  position: relative;
+  max-width: 280px;
+  margin: 0 auto;
 }
 
-.gitlink, .note {
+.github-link .note {
     background: #5B88B7;
     position: absolute;
     width: 100%;
     height: 100%;
+    opacity: 0;
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
 }
-.gitlink, .note, .notecontent {
+
+.github-link .note:hover {
+    opacity: 1;
+}
+
+.github-link .note .note-content {
+
     position: absolute;
     width: 100%;
     height: 0px;
     font-size: 20px;
     text-align: center;
     margin-top: -12px;
+    top: 50%;
+    color: white;
 }
-.githublink, .note, .notecontent p {
-    font-size: 22px;
-    margin-top: -8px;
-    padding: 0 20px 0 20px;
-}*/
+
+.github-link .note .note-content p.workss {
+  color: white;
+  font-family: "Lora";
+  text-align: center;
+  font-size: 22px;
+  margin-top: -8px;
+  padding: 0 20px 0 20px;
+}
+.portfolio-details {
+  margin: 94px 0 20px 0;
+}
+#git:hover {
+    color: #fff;
+    background-color: #5B88B7;
+}
 @media only screen and (max-width : 992px) {
   .dawn {
     margin-top: -180px;
