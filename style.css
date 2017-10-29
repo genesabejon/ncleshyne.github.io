@@ -286,7 +286,7 @@ h3.unver {
     color: #fff;
     font-size: 2em;
 		letter-spacing: 10px;
-    line-height: 24em;
+    line-height: 20em;
     top: 0;
     left: 2px;
     -webkit-box-sizing: border-box;
@@ -304,25 +304,7 @@ h4.unverr {
     color: #fff;
     font-size: 2em;
 		letter-spacing: 10px;
-    line-height: 60em;
-    top: 0;
-    left: 2px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-}
-h5.works {
-    width: 80%;
-    position: absolute;
-    color: #fff;
-    font-size: 2em;
-    letter-spacing: 10px;
-    line-height: 97em;
+    line-height: 50em;
     top: 0;
     left: 2px;
     -webkit-box-sizing: border-box;
@@ -396,7 +378,7 @@ h6 {
 
 }
 .left p {
-  width: 100%;
+  width: 110%;
   margin: auto;
 	padding-top: 100px;
   font-family: "Lora";
@@ -408,23 +390,22 @@ h6 {
 	text-align: justify;
 	padding-left: 75px;
 }
+.right {
+  /*width: 50%;
+  float: right;*/
+  height: 1000px;
+  /*position: relative;*/
+  background-color: #fff;
+}
 .first {
   /*width: 50%;
   float: right;*/
-  height: 1800px;
+  height: 1000px;
   /*position: relative;*/
-  background-color: #5B88B7;
+  background-color: #23292D;
 	margin-left: 50px;
-	width: 3%;
-	margin-top: -91px;
-}
-.firstrow {
-	  /*width: 50%;
-	  float: right;*/
-	  /*position: relative;*/
-	  background-color: #97B9DC;
-		height: 41px;
-		margin-top: 50px;
+	width: 5%;
+
 }
 .right p {
 
@@ -472,7 +453,7 @@ h6 {
 
 
 .skills-section-flex {
-	margin-top: 180px;
+	margin-top: 100px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -490,12 +471,6 @@ h6 {
 .progress-bar-css {
     background-color: #0070ba;
 }
-.progress-bar-rails {
-    background-color: #a62c46;
-}
-.progress-bar-js {
-    background-color: #83CD29;
-}
 .ichi {
 	/*width: 50%;
   float: right;*/
@@ -512,69 +487,25 @@ h6 {
   background-color: #fff;
 }
 
-.github-link {
-  display: block;
-  position: relative;
-  max-width: 280px;
-  margin: 0 auto;
+@media screen and (max-width: 60em) {
+
+	footer {
+		min-height: 7em;
+	}
+
+	.footer-social-icons {
+		display: block !important;
+		position: initial !important;
+		margin: 0 auto !important;
+	}
+
+	ul.social-icons {
+		margin-top: -1em !important;
+	}
+
 }
 
-.github-link .note {
-    background: #5B88B7;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all ease 0.5s;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-}
-
-.github-link .note:hover {
-    opacity: 1;
-}
-
-.github-link .note .note-content {
-
-    position: absolute;
-    width: 100%;
-    height: 0px;
-    font-size: 20px;
-    text-align: center;
-    margin-top: -12px;
-    top: 50%;
-    color: white;
-}
-
-.github-link .note .note-content p.workss {
-  color: white;
-  font-family: "Lora";
-  text-align: center;
-  font-size: 22px;
-  margin-top: -8px;
-  padding: 0 20px 0 20px;
-}
-.portfolio-details {
-  margin: 156px -75px -93px 38px;
-}
-#git:hover {
-    color: #fff;
-    background-color: #5B88B7;
-}
-.mobileskills {
-  display: none;
-}
 @media only screen and (max-width : 992px) {
-  .mobileskills {
-    display: block;
-    margin: 20px 0 20px 0;
-  }
-  .portfolio-details {
-    margin: 20px 0 20px 0;
-  }
-  .dawn {
-    margin-top: -180px;
-  }
 	.skills-card {
 	    flex-basis: 100%;
 	    display: flex;
@@ -590,14 +521,15 @@ h6 {
 	}
 	.left {
 	  width: 100%;
-	  height: 100%;
+		height: 100%;
+		padding: 0 2.5em;
 	  position: relative;
 	  background-color: #fff;
 		text-align: justify;
 	}
 	.left p {
-	  width: 90%;
-	  height: 100%;
+	  width: 100%;
+		height: 100%;
 	  position: relative;
 	  color: #23292D;
 		padding-left: 0;
@@ -629,7 +561,6 @@ h6 {
 
 	}
 	.first {display: none !important;}
-	.firstrow {display: none !important;}
 	.unver {display: none !important;}
 	.vert {
 		width: 100%;
@@ -679,15 +610,10 @@ h6 {
 		right: 0;
 	}
 	.copyright {
-    font-size: 11px;
     padding: 50px;
 	}
-	footer {
-	  height: 15%;
-	}
 	ul.social-icons {
-    display: inline-block;
-		margin-right: 50px;
+    margin-top: -30px;
 	}
 	#form {
     margin: 0 auto;
@@ -823,7 +749,9 @@ ul.social-icons {
   width: 100%;
   padding: 20px 0px;
 }
-.two{
+/* 
+	I LEFT THIS ORIGINAL CODE IN JUST IN CASE YOU WANTED TO REVERT
+	.two{
     color: rgb(35, 41, 45);
 		font-family: "Montserrat";
 		font-weight: normal;
@@ -840,7 +768,22 @@ ul.social-icons {
     padding-top: 10px;
 	  margin: auto;
 		text-align: justify;
+} */
 
+.two{
+	color: rgb(35, 41, 45);
+	font-family: "Montserrat";
+	font-weight: normal;
+	line-height: 2;
+	font-size: 18px;
+	padding-bottom:20px;
+	position: relative;
+	letter-spacing: 1px;
+	color: #23292D;
+	max-width: 100%;
+	padding-top: 10px;
+	margin: 0 0.8em;
+	text-align: justify;
 }
 /*footer*/
 /*@media only screen and (max-width : 320px) {
