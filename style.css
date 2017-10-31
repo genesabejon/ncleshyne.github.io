@@ -400,12 +400,20 @@ h6 {
 .first {
   /*width: 50%;
   float: right;*/
-  height: 1000px;
+  height: 1500px;
   /*position: relative;*/
-  background-color: #23292D;
+  background-color: #5B88B7;
 	margin-left: 50px;
-	width: 5%;
-
+	width: 3%;
+	margin-top: -91px;
+}
+.firstrow {
+	  /*width: 50%;
+	  float: right;*/
+	  /*position: relative;*/
+	  background-color: #97B9DC;
+		height: 41px;
+		margin-top: 50px;
 }
 .right p {
 
@@ -486,7 +494,58 @@ h6 {
   /*position: relative;*/
   background-color: #fff;
 }
+.github-link {
+  display: block;
+  position: relative;
+  max-width: 280px;
+  margin: 0 auto;
+}
 
+.github-link .note {
+    background: #5B88B7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+
+.github-link .note:hover {
+    opacity: 1;
+}
+
+.github-link .note .note-content {
+
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -12px;
+    top: 50%;
+    color: white;
+}
+
+.github-link .note .note-content p.workss {
+  color: white;
+  font-family: "Lora";
+  text-align: center;
+  font-size: 22px;
+  margin-top: -8px;
+  padding: 0 20px 0 20px;
+}
+.portfolio-details {
+  margin: 156px -75px -93px 38px;
+}
+#git:hover {
+    color: #fff;
+    background-color: #5B88B7;
+}
+.mobileskills {
+  display: none;
+}
 @media screen and (max-width: 60em) {
 
 	footer {
@@ -749,7 +808,7 @@ ul.social-icons {
   width: 100%;
   padding: 20px 0px;
 }
-/* 
+/*
 	I LEFT THIS ORIGINAL CODE IN JUST IN CASE YOU WANTED TO REVERT
 	.two{
     color: rgb(35, 41, 45);
