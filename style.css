@@ -402,10 +402,18 @@ h6 {
   float: right;*/
   height: 1000px;
   /*position: relative;*/
-  background-color: #23292D;
+  background-color: #5B88B7;
 	margin-left: 50px;
-	width: 5%;
-
+	width: 3%;
+	margin-top: -91px;
+}
+.firstrow {
+	  /*width: 50%;
+	  float: right;*/
+	  /*position: relative;*/
+	  background-color: #97B9DC;
+		height: 41px;
+		margin-top: 50px;
 }
 .right p {
 
@@ -749,7 +757,7 @@ ul.social-icons {
   width: 100%;
   padding: 20px 0px;
 }
-/* 
+/*
 	I LEFT THIS ORIGINAL CODE IN JUST IN CASE YOU WANTED TO REVERT
 	.two{
     color: rgb(35, 41, 45);
